@@ -1,19 +1,14 @@
-import Nav from "./components/Nav";
-import Jumbotron from "./components/jumbotron";
-import SoundSection from "./components/SoundSection";
-import DisplaySection from "./components/DisplaySection";
-import WebgiViewer from "./components/WebgiViewer";
+import { Routes, Route} from "react-router-dom";
+import Home from './Home';
 
 function App() {
 
 
   return (
     <div className="App">
-      <Nav />
-      <Jumbotron />
-      <SoundSection />
-      <DisplaySection />
-      <WebgiViewer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
