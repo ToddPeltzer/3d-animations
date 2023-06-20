@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://toddpeltzer.github.io/3d-animations",
+  "homepage": "https://toddpeltzer.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
